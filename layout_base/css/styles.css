@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    /* property defines how the width and height of an element are calculated: should they include padding and borders, or not. */
+}
+
+.container {
+    background-color: rgb(229, 234, 236);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #319197;
+    border-radius: 10px;
+    color: white;
+    font-size: 5vh;
+    border-color: black;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .header:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+} */
+
+.main {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-left {
+    background-color: #a2d5c6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    height: inherit;
+    flex-basis: 20vw;
+}
+
+.main-content {
+    background-color: #3b4d61;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    height: inherit;
+    flex-basis: 70vw;
+}
+
+.side-right {
+    background-color: #a2d5c6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    height: inherit;
+    flex-basis: 10vw;
+}
+
+.footer {
+    background-color: #be1558;
+    color: white;
+    font-size: 4vh;
+    height: 10vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
